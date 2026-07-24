@@ -90,16 +90,3 @@ python3 tests/test_engine.py
 
 If everything is working, you'll see a list of "passed" messages and a
 final "All tests passed!" line.
-
-## A few simplifications (so you know what's "fake" here)
-
-- Tax rates are just made-up flat numbers (35% for short-term, 15% for
-  long-term), not real tax brackets.
-- The list of "similar" replacement stocks is a small hardcoded lookup
-  table, not real financial data.
-- Sample data is randomly generated, so numbers will look different every
-  time you delete the `data/` folder and re-run the program.
-
-This project is meant to show how the *pieces* of a tax loss harvesting
-system fit together (loading data, analyzing gains/losses, checking rules,
-scoring, and recommending), not to give real financial advice.
